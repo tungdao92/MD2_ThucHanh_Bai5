@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Bai5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int month = scanner.nextByte();
+        byte month = scanner.nextByte();
         switch (month){
             case 2:
                 System.out.println("Tháng "+month+"có 28, 29 ngày");
